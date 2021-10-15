@@ -37,6 +37,7 @@ public class Employee implements Serializable {
         this.lastName = lastName;
     }
 
+
     @Column(name = "last_name")
        private String lastName;
 
