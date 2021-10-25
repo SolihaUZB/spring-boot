@@ -1,5 +1,6 @@
 package com.clean.code.springboot.domain;
 
+import org.jetbrains.annotations.NotNull;
 import org.springframework.lang.NonNull;
 
 import javax.persistence.Entity;
@@ -7,9 +8,10 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
-public class Role implements Serializable{
+public class Role implements Serializable {
+
     @Id
-    @NonNull
+    @NotNull
     private String name;
 
     public String getName() {
