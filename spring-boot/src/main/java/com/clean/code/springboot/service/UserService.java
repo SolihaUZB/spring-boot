@@ -21,6 +21,6 @@ public class UserService {
     }
 
     public Boolean checkUserName(String userName){
-        return userRepository.exsistByUserName(userName);
+        return userRepository.exBoolean(userName);
     }
 }
